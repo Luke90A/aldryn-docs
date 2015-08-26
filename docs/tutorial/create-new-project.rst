@@ -6,10 +6,16 @@ In the Control Panel, select **Add a new Project**.
 
 You'll be invited to choose what kind of new project you'd like to create.
 
+.. image:: images/project_type.png
+   :alt: The project types
+
 You can start with a blank project but for this tutorial choose the second option, **Start with a
 theme and content**.
 
 This will duplicate our demonstration *Explorer site* for you.
+
+.. image:: images/project_name.png
+   :alt: Fill in the project name
 
 Give the project a name (note that Aldryn projects must have unique names, so if you choose a name
 that already exists you'll need to choose another). Don't worry about the *Organisation* field for
@@ -36,6 +42,7 @@ Go to *General settings* in the project's Dashboard, and set:
   account, you'll be able to publish the site from your own domain.
 * *Base Project Release Channel Settings*: leave this set to *Stable*.
 
+.. todo:: an image for Dashboard > General settings
 
 ===================
 Deploy your project
@@ -47,6 +54,8 @@ First you deploy a private version for testing, and then later you can publish a
 all the world to see.
 
 Back in your project's Dashboard, hit **Test it** to deploy the site to the *Test server*.
+
+.. todo:: an image for Test it button
 
 .. NOTE::
    For the moment, we will work only with the Test server; later, we'll look at the Live server
@@ -69,3 +78,5 @@ Occasionally, a deployment will fail. This can happen for various reasons. The p
 will be unaffected. Repeat the deployment. If it fails again, contact the Aldryn team for support,
 either `by email <mailto:support@aldryn.com>`_ or by using the *Intercom tool* on any page on the
 Aldryn website.
+
+.. todo:: an image for the Intercom widget
